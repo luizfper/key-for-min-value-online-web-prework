@@ -10,5 +10,6 @@ def key_for_min_value(name_hash)
       chave=key
     end
   end
+  return nil if chave=""
   chave
 end
