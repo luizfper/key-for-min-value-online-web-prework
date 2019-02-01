@@ -3,13 +3,12 @@
 
 def key_for_min_value(name_hash)
   val =99999
-  chave=""
+  chave=nil
   name_hash.each do |key,value|
     if val >value
       val=value
       chave=key
     end
   end
-  return nil if chave=""
   chave
 end
